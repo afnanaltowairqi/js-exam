@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#card{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+/* .container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+} */
+.container2{
+    background-color: rgb(221, 220, 221);
+    height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#container-fluid{
+    width: 40vw;
+    height: 100vh;
+}
+.times{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 30vw;
+    gap:20px;
+}
+.btnTimes{
+    color: black;
+}
+.weather{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 30vw;
+    gap:20px;
+}
+.imgPray{
+    border: 5px solid white;
+}
+#btn{
+    background-color: rgb(248, 192, 71);
+}
+/* .img1{
+    width: 30vw;
+    height: 40vh;
+    position: relative;
+    top:40px;
+    left:100px;
+}
+.img2{
+    width: 30vw;
+    height: 50vh;
+    position:absolute;
+    top:200px;
+    left:400px;
+} */

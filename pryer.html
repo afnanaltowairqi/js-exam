@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pryer time</title>
+</head>
+<body>
+    <div id="Pryer"></div>
+    <script>
+    async function prayerTimes() {
+        const res = await fetch('http://api.aladhan.com/v1/timings/:date');
+        const data = await res.json();
+        console.log(data);
+
+        let Pryer = document.getElementById("Pryer");
+        data.date.forEach(e => {
+            let div1 = document.createElement("div1");
+            let date = document.createElement("p")
+            data.innerText=e.readable;
+            div1.append(p);
+            Pryer.append(div1);
+        });
+}
+
+        
+
+        
+       
+        // let div1 = document.createElement("div1");
+        // let dateH = document.createElement
+    </script>
+</body>
+</html>
