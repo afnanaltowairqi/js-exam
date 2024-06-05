@@ -31,8 +31,8 @@
             let email=document.getElementById("email");
             let password=document.getElementById("password");
 
-            let nameValid=[A-Za-z];
-            let userValid=/\d+$\w+/gi;
+            let nameValid=/^[a-zA-Z\s-]+$/;
+            let userValid=/^[a-zA-Z0-9]+$/;
             let emailValid=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             let passwordValid=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*(\W|_)).{5,}$/;
             
